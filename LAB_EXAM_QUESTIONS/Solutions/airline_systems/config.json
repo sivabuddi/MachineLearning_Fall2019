@@ -1,0 +1,102 @@
+{
+  "name": "Fly High Airlines",
+  "airlineServices": {
+    "1": "Book flight tickets",
+    "2": "Know your flight Information (for Pilots)"
+  },
+  "originCity": {
+    "1": "Kansas City - USA",
+    "2": "St.Louis - USA",
+    "3": "Los Angeles - USA"
+  },
+  "destinationCity": {
+    "1": "Kansas City - USA",
+    "2": "St.Louis - USA",
+    "3": "Los Angeles - USA"
+  },
+  "class": {
+    "1": "Business",
+    "2": "first class",
+    "3": "premium economy",
+    "4": "economy"
+  },
+  "flights": {
+    "1": {
+      "flight_id": "ABC1",
+      "pilot_id": "1",
+      "source": "1",
+      "destination": "2",
+      "fare": "$ 50",
+      "start_time": "3 AM",
+      "end_time": "4 AM"
+    },
+    "2": {
+      "flight_id": "ABC2",
+      "pilot_id": "2",
+      "source": "1",
+      "destination": "3",
+      "fare": "$ 50",
+      "start_time": "3 AM",
+      "end_time": "4 AM"
+    },
+    "3": {
+      "flight_id": "ABC3",
+      "pilot_id": "1",
+      "source": "2",
+      "destination": "1",
+      "fare": "$ 50",
+      "start_time": "3 AM",
+      "end_time": "4 AM"
+    },
+    "4": {
+      "flight_id": "ABC4",
+      "pilot_id": "3",
+      "source": "2",
+      "destination": "3",
+      "fare": "$ 50",
+      "start_time": "3 AM",
+      "end_time": "4 AM"
+    },
+    "5": {
+      "flight_id": "ABC5",
+      "pilot_id": "2",
+      "source": "3",
+      "destination": "1",
+      "fare": "$ 50",
+      "start_time": "3 AM",
+      "end_time": "4 AM"
+    },
+    "6": {
+      "flight_id": "ABC6",
+      "pilot_id": "3",
+      "source": "3",
+      "destination": "2",
+      "fare": "$ 50",
+      "start_time": "3 AM",
+      "end_time": "4 AM"
+    }
+  },
+  "pilot": {
+    "1": {
+      "name": "pilot1",
+      "gender": "Male",
+      "contact": "1234",
+      "birth_date": "080890",
+      "miles_travelled": "123566"
+    },
+    "2": {
+      "name": "pilot2",
+      "gender": "Female",
+      "contact": "1235",
+      "birth_date": "080890",
+      "miles_travelled": "123566"
+    },
+    "3": {
+      "name": "pilot2",
+      "gender": "Male",
+      "contact": "1236",
+      "birth_date": "080890",
+      "miles_travelled": "123566"
+    }
+  }
+}
